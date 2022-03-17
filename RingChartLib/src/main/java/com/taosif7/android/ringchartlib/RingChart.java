@@ -272,7 +272,7 @@ public class RingChart extends ViewGroup {
      * @param items items to set to chart
      */
     public void setData(List<RingChartData> items) {
-        Collections.sort(items, Collections.<RingChartData>reverseOrder());
+        //Collections.sort(items, Collections.<RingChartData>reverseOrder());
 
         this.ChartData.clear();
         this.ChartData.addAll(items);
